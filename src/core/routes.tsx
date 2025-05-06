@@ -5,6 +5,7 @@ import DoctorRoutes from "../modules/appointments/routes";
 import ReportRoutes from "../modules/reports/routes";
 import AppointmentRoutes from "../modules/appointments/routes";
 import ChatbotRoutes from "../modules/chatbot/routes";
+import ModelRoutes from "../modules/model/routes";
 
 
 const routes = [
@@ -14,7 +15,8 @@ const routes = [
 	DoctorRoutes,
 	ReportRoutes,
 	AppointmentRoutes,
-	ChatbotRoutes
+	ChatbotRoutes,
+	ModelRoutes
 ];
 
 export default routes;

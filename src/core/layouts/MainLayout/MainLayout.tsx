@@ -274,21 +274,7 @@ const MainLayout = () => {
 					</Box>
 					<CustomBox>
 						{/* Book Appointment Button */}
-						<Button
-							variant="contained"
-							color="primary"
-							onClick={handlePatients}
-							sx={{
-								backgroundColor: "#CF2128",
-								color: "#FFE0E1",
-								":hover": {
-									backgroundColor: "#FFE0E1",
-									color: "#CF2128",
-								},
-							}}
-						>
-							Add Patient
-						</Button>
+						
 						<ProfileCard onClick={handleClick}>
 							<Typography color={"white"} variant="h3">
 								{getInitials(user?.PatientName)}
