@@ -113,12 +113,12 @@ const CancelAppointmentDialog: React.FC<CancelAppointmentDialogProps> = ({
 					</Typography>
 				)}
 			</DialogContent>
-			{/* <DialogActions>
+			<DialogActions>
 				<Button onClick={handleClose}>Close</Button>
 				<StyledRescheduleButton onClick={handleCancelClick} variant="contained">
 					Cancel Appointment
 				</StyledRescheduleButton>
-			</DialogActions> */}
+			</DialogActions>
 		</Dialog>
 	);
 };

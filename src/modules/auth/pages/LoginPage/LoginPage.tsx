@@ -103,7 +103,7 @@ const LoginPage = () => {
 							whiteSpace: { xs: "normal", md: "nowrap", lg: "nowrap" }, // Ensure no wrapping on larger screens but allow for medium
 						}}
 					>
-						Patient Portal
+						Doctor Portal
 					</Typography>
 				</Row>
 				<Typography

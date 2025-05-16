@@ -1,9 +1,9 @@
 import { Box, Grid, Typography } from "@mui/material";
 import { Outlet } from "react-router-dom";
-import iPhoneImage from "../../../assets/images/iphone.png";
+import iPhoneImage from "../../../assets/images/img1.png";
 // import GooglePlayButton from "../../../assets/images/pngwing.com (1).png";
 // import AppStoreButton from "../../../assets/images/pngwing.com (2).png";
-import HospitalLogo from "../../../assets/images/logo.png";
+import HospitalLogo from "../../../assets/images/Logo 4.png";
 
 const AuthLayout = () => {
 	// const downloadButtons = (
@@ -143,7 +143,7 @@ const AuthLayout = () => {
 							}}
 							variant="h4"
 						>
-							Keep track of you and your Family Members at one place{" "}
+							Keep track of you and your Patients at one place{" "}
 						</Typography>
 						<Box
 							component="img"
@@ -153,8 +153,8 @@ const AuthLayout = () => {
 									xs: "80%",
 									sm: "60%",
 									md: "34%",
-									lg: "40%",
-									xl: "30%",
+									lg: "115%",
+									xl: "115%",
 								},
 								height: "auto",
 							}}
